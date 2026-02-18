@@ -1,0 +1,22 @@
+ext {
+    minSdkVersion = 24
+    compileSdkVersion = 34
+    targetSdkVersion = 34
+
+    // Versi Library Stabil (Cocok untuk AGP 8.x)
+    androidxActivityVersion = '1.8.0'
+    androidxAppCompatVersion = '1.6.1'
+    androidxCoordinatorLayoutVersion = '1.2.0'
+    androidxCoreVersion = '1.12.0'      // Obat error core-ktx
+    androidxFragmentVersion = '1.6.2'
+    coreSplashScreenVersion = '1.0.1'   // Obat error splashscreen
+    androidxWebkitVersion = '1.9.0'
+
+    // Testing
+    junitVersion = '4.13.2'
+    androidxJunitVersion = '1.1.5'
+    androidxEspressoCoreVersion = '3.5.1'
+
+    // Core
+    cordovaAndroidVersion = '10.1.1'
+}

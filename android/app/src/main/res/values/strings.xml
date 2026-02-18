@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">PLN ULP TABING</string>
+    <string name="title_activity_main">PLN ULP TABING</string>
+    <string name="package_name">com.pln.gudang</string>
+    <string name="custom_url_scheme">com.pln.gudang</string>
+</resources>
