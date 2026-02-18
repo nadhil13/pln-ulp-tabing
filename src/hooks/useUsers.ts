@@ -89,7 +89,7 @@ export function useUsers() {
         return {
           success: false,
           error:
-            'Konfigurasi Firebase tidak valid (API key ditolak). Cek apakah apiKey di Firebase Console benar, dan jika API key dibatasi, izinkan domain preview Lovable (*.lovableproject.com dan *.lovable.app).',
+            'Konfigurasi Firebase tidak valid (API key ditolak). Cek apakah apiKey di Firebase Console benar, dan jika API key dibatasi, izinkan domain preview .',
         };
       }
 
