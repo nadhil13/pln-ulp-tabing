@@ -170,11 +170,11 @@ export function AdminDashboard() {
       </Card>
 
       {/* Stats Grid - 4 Key Cards */}
-      <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {[
           { label: 'Total Aset', count: items.length, icon: Package, color: 'text-primary', bg: 'bg-primary/10' },
           { label: 'Masuk Hari Ini', count: todayCount, icon: TrendingUp, color: 'text-green-500', bg: 'bg-green-500/10' },
-          { label: 'Bekas Handal', count: andalCount, icon: ShieldCheck, color: 'text-blue-500', bg: 'bg-blue-500/10' },
+          /*{ label: 'Bekas Handal', count: andalCount, icon: ShieldCheck, color: 'text-blue-500', bg: 'bg-blue-500/10' }, */
           { label: 'User Aktif', count: activeUsers, icon: Users, color: 'text-secondary-foreground', bg: 'bg-secondary', usersLoading: true },
         ].map((stat) => (
           <Card key={stat.label} className="glass-card hover:shadow-xl transition-all">
