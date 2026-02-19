@@ -182,9 +182,9 @@ export function ExcelDownloadCard() {
         <p className="text-xs text-muted-foreground/60 text-center">
           Data realtime • Format resmi PT PLN (Persero)
         </p>
-        <p className="text-[10px] text-yellow-600 dark:text-yellow-400 text-center leading-relaxed bg-yellow-50 dark:bg-yellow-900/20 rounded-md p-2">
+        {/* <p className="text-[10px] text-yellow-600 dark:text-yellow-400 text-center leading-relaxed bg-yellow-50 dark:bg-yellow-900/20 rounded-md p-2">
           ⚠️ Jika testing di HP via Localhost, buka website menggunakan IP Address laptop (misal 192.168.x.x:8080)
-        </p>
+        </p> */}
       </CardContent>
     </Card>
   );
