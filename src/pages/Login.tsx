@@ -163,7 +163,7 @@ export default function Login() {
             Belum punya akun? Hubungi Admin Gudang
           </p>
           <p className="text-xs text-muted-foreground/60">
-            © 2026 PLN ULP TABING - Kota Padang
+            © 2026 PLN ULP TABING - Kota Padang 
           </p>
         </div>
       </div>
