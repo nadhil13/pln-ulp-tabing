@@ -19,7 +19,7 @@ export default defineConfig(({ mode }) => ({
       registerType: "autoUpdate",
       includeAssets: ["favicon.ico", "pwa-icon-192.png", "pwa-icon-512.png"],
       workbox: {
-        maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
+        maximumFileSizeToCacheInBytes: 10 * 1024 * 1024,
         globPatterns: ["**/*.{js,css,html,ico,png,svg,woff2}"],
         navigateFallbackDenylist: [/^\/~oauth/],
         runtimeCaching: [
@@ -42,7 +42,7 @@ export default defineConfig(({ mode }) => ({
         ],
       },
       manifest: {
-        name: "PLN Smart Warehouse",
+        name: "PLN ULP TABING",
         short_name: "Gudang PLN",
         description: "Sistem Manajemen Gudang PLN",
         theme_color: "#163C93",

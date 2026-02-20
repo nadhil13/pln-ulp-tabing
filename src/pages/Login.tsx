@@ -31,7 +31,7 @@ export default function Login() {
     
     if (result.success) {
       toast.success('Login berhasil!', {
-        description: 'Selamat datang di PLN Smart Warehouse',
+        description: 'Selamat datang di PLN ULP TABING',
       });
       const redirect = result.redirectPath ?? getRedirectPath();
       navigate(redirect === '/login' ? '/dashboard' : redirect, { replace: true });

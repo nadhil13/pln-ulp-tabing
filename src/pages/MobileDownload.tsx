@@ -151,7 +151,7 @@ export default function MobileDownload() {
             <Zap className="h-10 w-10 text-[#FFE300]" />
           </div>
           <div>
-            <h1 className="text-xl font-bold text-[#163C93]">PLN Smart Warehouse</h1>
+            <h1 className="text-xl font-bold text-[#163C93]">PLN ULP TABING</h1>
             <p className="text-sm text-gray-500">Sistem Manajemen Gudang Digital</p>
           </div>
         </div>
