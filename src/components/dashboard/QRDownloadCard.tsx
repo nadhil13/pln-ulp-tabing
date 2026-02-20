@@ -87,7 +87,13 @@ export function ExcelDownloadCard() {
   const [downloadUrl, setDownloadUrl] = useState('');
 
   useEffect(() => {
-    const origin = typeof window !== 'undefined' && window.location.origin ? window.location.origin : '';
+    // --- LOGIKA DETEKSI ORIGIN UNTUK APK / LOCALHOST ---
+    let origin = typeof window !== 'undefined' && window.location.origin ? window.location.origin : '';
+
+    if (origin.includes('localhost') || origin.includes('capacitor')) {
+      origin = 'https://pln-ulp-tabing.vercel.app';
+    }
+  
     setDownloadUrl(`${origin}/mobile-download`);
   }, []);
 
